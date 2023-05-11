@@ -28,7 +28,7 @@ const HamburgerMenu = () => {
       <button onClick={() => setOpen(!isOpen)}>
         <div className={`hamburger ${isOpen ? 'open' : ''}`}>
           <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${isOpen ? "rotate-45 translate-y-2.5" : ""}`} />
-          <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transition-all duration-300 ease-in-out ${isOpen ? "w-0" : "w-full"}`} />
+          <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transition-all duration-300 ease-in-out ${isOpen ? "w-0 " : "w-full "}`} />
           <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${isOpen ? "-rotate-45 -translate-y-2.5" : ""}`} />
         </div>
       </button>
