@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image'
+import Image from 'next/image';
 
 
 const Footer = () => {
@@ -17,6 +17,7 @@ const Footer = () => {
             <Link href={"mailto:HayfordVII"} target="_blank">
                 <Image className="socials mr-20" src='/mail.svg' width={23} height={23} alt={"dribble"}/>
             </Link>
+            
         </div>        
     );
 }

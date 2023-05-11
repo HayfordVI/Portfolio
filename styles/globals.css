@@ -68,15 +68,17 @@ a {
   transform: translateY(13px) rotate(45deg);
 }
 
+.hamburger.open span:second-child {
+  display: none;
+}
+
 .hamburger.open span:last-child {
   transform: translateY(-13px) rotate(-45deg);
 }
 
 
 /* footer  */
-.socials svg{
-  fill: #ff0000;
-}
+
 
 @media all and (min-width:500px) {
   .navbar button{

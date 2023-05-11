@@ -86,12 +86,12 @@ export default function Home() {
                 <p>My journey as a freelancer I have done remote work for agencies which 
                 includes a wide range of services including programming, UI/UX Design, 3D design.</p>
                 <div className="work_example flex flex-wrap">
-                    <div className="work_cards flex-wrap"><Image /></div>
-                    <div className="work_cards flex-wrap"><Image /></div>
-                    <div className="work_cards flex-wrap"><Image /></div>
-                    <div className="work_cards flex-wrap"><Image /></div>
-                    <div className="work_cards flex-wrap"><Image /></div>
-                    <div className="work_cards flex-wrap"><Image /></div>
+                    <div className="work_cards flex-wrap"></div>
+                    <div className="work_cards flex-wrap"></div>
+                    <div className="work_cards flex-wrap"></div>
+                    <div className="work_cards flex-wrap"></div>
+                    <div className="work_cards flex-wrap"></div>
+                    <div className="work_cards flex-wrap"></div>
                 </div>
             </div>
         </div>
