@@ -12,6 +12,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 html{
@@ -63,12 +64,7 @@ a {
   z-index: 1;
 }
 
-
-.hamburger.open span:first-child {
-  transform: translateY(13px) rotate(45deg);
-}
-
-.hamburger.open span:second-child {
+.hamburger.open span:nth-child(2) {
   display: none;
 }
 
@@ -86,7 +82,7 @@ a {
   } 
 
   .hamburger{
-      display: none;
+    display: none;
   }
 }
 
@@ -111,8 +107,6 @@ a {
     height: 100%;
   } */
 
-  
-
   .links {
     display: none;
   }
@@ -127,29 +121,20 @@ a {
     flex-direction: column;
   }
 
-  
-  /* #box2{
-    
-  } */
   .copy-email{
     position: static;
-    padding-top: 1rem;
+    padding-top: 10rem;
   }
 
   .copy-email .copy_email {
     font-size: 2rem;
-
   }
-
 }
 
 
-/* About Page */
-  
-  
+/* About Page */ 
 .about-content{
-  /* font-family: 'Dosis', sans-serif; */
-
+  
   width: 75.0rem;
   height: 45.0rem;
   transform: translate(-50%, -50%);
@@ -180,7 +165,7 @@ a {
   .about-content{
     width: 100%;
     padding: 3rem 3rem;
-    height: 50rem;
+    height: 70rem;
   }
 
   .service-list {
@@ -226,7 +211,6 @@ a {
 }
 
 .work_example {
-
   padding: 0.5rem 4.0rem; 
 }
 
@@ -242,9 +226,18 @@ a {
 @media all and (max-width: 500px) {
 
   .work-frame{
-    padding: 8.0rem 3.0rem; 
+    padding: 8.0rem 1.5rem; 
   }
   
+  .work_cards{
+    margin: 1rem;
+    width: 55rem;
+    height: 54rem;
+  }
+
+  .work_example {
+    padding: 0.5rem 0rem; 
+  }
 }
 
 

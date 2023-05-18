@@ -50,7 +50,7 @@ export default function Home() {
       <div className='box2 m-12 items-center w-full flex justify-center text-8xl '>
         <p className="justify-center self-center">I&#39;m a web developer who elaborates in <span className="font-bold text-8xl cursor-pointer">UI/UX Design</span></p>
         <div className='copy-email absolute text-center'>
-          <Link href={'.contact'}><button className='copy_email w-60 p-2.5 duration-500 flex justify-center border items-center cursor-pointer rounded-md'>contact</button></Link>
+          <Link href={'#contact'}><button className='copy_email w-60 p-2.5 duration-500 flex justify-center border items-center cursor-pointer rounded-md'>contact</button></Link>
         </div> 
       </div>
     </section>

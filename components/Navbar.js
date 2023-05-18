@@ -9,7 +9,7 @@ const HamburgerMenu = () => {
     <div className='navbar flex justify-between w-full fixed z-10 bg-stone-100 pt-4 px-12'>
       
       <Link href={'/'}>
-        <p className="banner cursor-pointer text-5xl">BRIGHT HAYFORD</p>
+        <p className="banner cursor-pointer text-5xl">HAYFORDVII</p>
       </Link>
       <div className={`menu ${isOpen ? 'open' : ''}`}>
         <Link href={'/'}>
@@ -28,7 +28,7 @@ const HamburgerMenu = () => {
       <button onClick={() => setOpen(!isOpen)}>
         <div className={`hamburger ${isOpen ? 'open' : ''}`}>
           <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${isOpen ? "rotate-45 translate-y-2.5" : ""}`} />
-          <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transition-all duration-300 ease-in-out ${isOpen ? "w-0 " : "w-full "}`} />
+          <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transition-all duration-300 ease-in-out ${isOpen ? "w-0 " : "w-full"}`} />
           <span className={`h-1.5 w-full bg-black rounded-lg group-hover:text-red-500 cursor-pointer transform transition duration-300 ease-in-out ${isOpen ? "-rotate-45 -translate-y-2.5" : ""}`} />
         </div>
       </button>
