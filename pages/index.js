@@ -43,20 +43,22 @@ export default function Home() {
       <meta name="description" content="Personal portfolio"></meta>
       <link rel="icon" href="/Logo.svg"></link>
     </Head>
+
+    {/* Home section */}
     <section id="Home" className='container h-screen bg-cover flex bg-no-repeat bg-stone-100'>
       <div className='box1 m-12 items-center w-full flex justify-center'>
         <Image src='/avatar.svg' width={505.83} height={519.16} alt={"Avatar"}/>
       </div>
       <div className='box2 m-12 items-center w-full flex justify-center text-8xl '>
-        <p className="justify-center self-center">I&#39;m a web developer who elaborates in <span className="font-bold text-8xl cursor-pointer">UI/UX Design</span></p>
-        <div className='copy-email absolute text-center'>
-          <Link href={'#contact'}><button className='copy_email w-60 p-2.5 duration-500 flex justify-center border items-center cursor-pointer rounded-md'>contact</button></Link>
+        <p className="justify-center self-center">I&#39;m a web developer who elaborates in <span className="font-bold text-8xl cursor-pointer text-gold">UI/UX Design</span></p>
+        <div className='copy-email absolute text-center '>
+          <Link href={'#contact'}><button className='copy_email w-60 p-2.5 duration-500 flex justify-center border items-center cursor-pointer rounded-md text-gold border-gold border-2 border-solid transition-all ease-in-out duration-2000'>contact</button></Link>
         </div> 
       </div>
     </section>
 
     {/* About Page */}
-    <section id="about">
+    <section id="About">
       <div className="about bg-stone-100 h-screen">
               <div className="about-content flex relative flex-col text-4xl left-2/4 top-2/4">
                   <div className="about_summary">
@@ -66,10 +68,20 @@ export default function Home() {
                       <p className="font-extrlight">I offer the following services:</p>    
                   </div>
                   <div className="service-list grid">
-                      <Link href={""}><p>Website Dev</p></Link>
-                      <Link href={""}><p>UI/UX Design</p></Link>
-                      <Link href={""}><p>Animations</p></Link>
-                      <Link href={""}><p>3D Design</p></Link>                
+                    <div className=".gif-container">
+                        <Link href={""}><p>Website Dev</p></Link>
+                        {/* <Image className="gif" src="/public/giphy.gif" alt="GIF" width={240} height={427} /> */}
+                    </div>
+                    <div className=".gif-container">
+                        <Link href={""}><p>UI/UX Design</p></Link>
+                    </div>
+                    <div className=".gif-container">
+                        <Link href={""}><p>Animations</p></Link>
+                    </div>
+
+                    <div className=".gif-container">
+                        <Link href={""}><p>3D Design</p></Link>
+                    </div>            
                   </div>
                       
                   <p className="about_contacts">hayfordvii@brighthayford.com</p>
@@ -80,7 +92,7 @@ export default function Home() {
     </section>
 
     {/* Work Page*/}
-    <section id="work">
+    <section id="Work">
         <div className='work bg-stone-100 h-full'>
             <div className="work-frame">
                 <p>My journey as a freelancer I have done remote work for agencies which 
