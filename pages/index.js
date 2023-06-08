@@ -68,24 +68,25 @@ export default function Home() {
                       <p className="font-extrlight">I offer the following services:</p>    
                   </div>
                   <div className="service-list grid">
-                    <div className=".gif-container">
+                    <div className="gif-container">
                         <Link href={""}><p>Website Dev</p></Link>
-                        {/* <Image className="gif" src="/public/giphy.gif" alt="GIF" width={240} height={427} /> */}
+                        {/* <Image className="gif" loop src="/public/giphy.gif" alt="GIF" width={240} height={427} /> */}
+                        {/* <video className="gif" controls src="Unc.mp4"  autoPlay loop height="300"></video> */}
                     </div>
-                    <div className=".gif-container">
+                    <div className="gif-container">
                         <Link href={""}><p>UI/UX Design</p></Link>
                     </div>
-                    <div className=".gif-container">
+                    <div className="gif-container">
                         <Link href={""}><p>Animations</p></Link>
                     </div>
 
-                    <div className=".gif-container">
+                    <div className="gif-container">
                         <Link href={""}><p>3D Design</p></Link>
                     </div>            
                   </div>
                       
                   <p className="about_contacts">hayfordvii@brighthayford.com</p>
-                  <p className="about_contacts">+233 55 705 2044</p>
+                  <p className="about_contacts">+233 53 179 5702</p>
 
               </div>
       </div>
@@ -98,6 +99,7 @@ export default function Home() {
                 <p>My journey as a freelancer I have done remote work for agencies which 
                 includes a wide range of services including programming, UI/UX Design, 3D design.</p>
                 <div className="work_example flex flex-wrap">
+                
                     <div className="work_cards flex-wrap"></div>
                     <div className="work_cards flex-wrap"></div>
                     <div className="work_cards flex-wrap"></div>

@@ -39,11 +39,11 @@ const HamburgerMenu = () => {
     },
     {
       name: 'About',
-      link: '#about',
+      link: '#About',
     },
     {
       name: 'Work',
-      link: '#work',
+      link: '#Work',
     },
     {
       name: 'Contact',
